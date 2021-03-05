@@ -1,0 +1,19 @@
+[package]
+name = "rust-scripts"
+version = "0.1.0"
+authors = ["neallred@protonmail.com"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+battery = "0.7"
+
+[[bin]]
+name = "battery"
+path = "battery/main.rs"
+
+[[bin]]
+name = "ip_address"
+path = "ip_address/main.rs"
+
