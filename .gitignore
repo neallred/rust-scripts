@@ -1,1 +1,3 @@
 /target
+/backrest/test-outputs/*
+!/backrest/test-outputs/.gitkeep

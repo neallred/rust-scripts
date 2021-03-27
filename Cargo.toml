@@ -7,7 +7,20 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+age = "0.5"
+anyhow = "1.0"
 battery = "0.7"
+clap = "2.33"
+dirs = "3.0"
+ignore = "0.4"
+rpassword = "5.0"
+secrecy = "0.7"
+tar = "0.4"
+zip = "0.5"
+
+[dev-dependencies]
+assert_cmd = "1"
+predicates = "1"
 
 [[bin]]
 name = "battery"
@@ -17,3 +30,6 @@ path = "battery/main.rs"
 name = "ip_address"
 path = "ip_address/main.rs"
 
+[[bin]]
+name = "backrest"
+path = "backrest/main.rs"
